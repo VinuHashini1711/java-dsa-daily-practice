@@ -1,6 +1,6 @@
+package Leetcode;
 import java.util.*;
-
-class SquaresOfSortedArray {
+class SquaresOfASortedArray {
 
     public static int[] sortedSquares(int[] nums) {
 
