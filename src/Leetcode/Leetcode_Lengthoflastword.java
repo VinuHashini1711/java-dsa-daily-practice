@@ -25,3 +25,4 @@ public class Leetcode_Lengthoflastword {
         sc.close();
     }
 }
+
