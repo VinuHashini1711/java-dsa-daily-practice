@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Leetcode_Lengthoflastword {
     public static int lengthOfLastWord(String s) {
         int end = s.length() - 1;
-        // Skip trailing spaces
+        // Skip trailing space
         while (end >= 0 && s.charAt(end) == ' ') {
             end--;
         }
