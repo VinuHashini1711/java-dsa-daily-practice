@@ -18,7 +18,7 @@ public class Leetcode_Lengthoflastword {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a sentence: ");
+        System.out.print("Enter a sentence:");
         String s = sc.nextLine();
         int result = lengthOfLastWord(s);
         System.out.println("Length of last word: " + result);
