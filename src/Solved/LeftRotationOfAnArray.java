@@ -12,7 +12,6 @@ class LeftRotationOfAnArray {
         k=k%n;
         for(int i=0;i<k;i++){
             int temp=arr[0];
-
             // we can use any one logic for forloop here, both are same
             //  for(int j=0;j<n-1;j++){
             //     arr[j]=arr[j+1];
