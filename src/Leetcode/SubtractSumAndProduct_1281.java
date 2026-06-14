@@ -1,6 +1,6 @@
 package Leetcode;
 import java.util.Scanner;
-public class SumOfDigits {
+public class SubtractSumAndProduct_1281 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();   // input number
