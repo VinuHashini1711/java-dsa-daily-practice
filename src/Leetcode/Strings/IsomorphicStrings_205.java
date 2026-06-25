@@ -1,4 +1,4 @@
-package DSA.Strings;
+package Leetcode.Strings;
 import java.util.*;
 public class IsomorphicStrings_205 {
     public static void main(String[] args){
