@@ -1,36 +1,24 @@
 package Leetcode.SlidingWindow;
 import java.util.*;
 public class MaximumAverageSubarray1_643 {
-    public static double findMaxAverage(int[] nums, int k) {
-
-        int windowSum = 0;
-
-        // Calculate the sum of the first window
-        for (int i = 0; i < k; i++) {
-            windowSum += nums[i];
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int arr[]=new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
         }
-
-        int maxSum = windowSum;
-
-        // Slide the window
-        for (int i = k; i < nums.length; i++) {
-            windowSum += nums[i];      // Add the new element
-            windowSum -= nums[i - k];  // Remove the leftmost element
-
-            maxSum = Math.max(maxSum, windowSum);
+        int k=sc.nextInt();
+        int windowSum=0;
+        for(int i=0;i<k;i++){
+            windowSum += arr[i];
         }
-
-        return (double) maxSum / k;
-    }
-
-    public static void main(String[] args) {
-
-        int[] nums = {1, 12, -5, -6, 50, 3};
-        int k = 4;
-
-        double result = findMaxAverage(nums, k);
-
-        System.out.println("Maximum Average = " + result);
+        int maxSum=windowSum;
+        for(int i=k;i<n;i++){
+            windowSum+=arr[i];
+            windowSum-=arr[i - k];
+            maxSum=Math.max(maxSum,windowSum);
+        }
+        System.out.print((double) maxSum/k);
     }
 }
-
