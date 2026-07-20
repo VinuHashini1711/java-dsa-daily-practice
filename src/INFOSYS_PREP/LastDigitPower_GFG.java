@@ -1,7 +1,6 @@
 package INFOSYS_PREP;
 import java.util.*;
 public class LastDigitPower_GFG {
-
     public static int power(String a,String b){
         if(b.equals("0") && a.equals("1")){
             return 1;
