@@ -12,7 +12,6 @@ public class Transpose {
         transposeMatrix(n,matrix);
     }
     public static int[][] transposeMatrix(int n,int matrix[][]){
-
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 int temp=matrix[i][j];
@@ -25,6 +24,7 @@ public class Transpose {
                     System.out.print(x+" ");
                 }
                 System.out.println();
+
         }
         return matrix;
     }
