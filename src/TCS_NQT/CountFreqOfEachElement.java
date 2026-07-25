@@ -8,9 +8,9 @@ public class CountFreqOfEachElement {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        Frequency(arr, n);
+        frequency(arr);
     }
-public static void Frequency(int n,int arr[]) {
+public static void frequency(int[] arr) {
 HashMap<Integer,Integer> map=new HashMap<>();
 for(int num:arr){
     map.put(num,map.getOrDefault(num,0)+1);
