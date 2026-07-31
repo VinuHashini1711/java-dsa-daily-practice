@@ -26,8 +26,6 @@ public class Kadanes_Algorithm {
             arr[i] = sc.nextInt();
         }
         int ans = maxSubArray(arr);
-        System.out.println("Maximum Subarray Sum = " + ans);
-
-        sc.close();
+        System.out.println("Maximum Subarray Sum = " + ans);sc.close();
     }
 }
