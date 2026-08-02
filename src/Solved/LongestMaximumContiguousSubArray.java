@@ -14,6 +14,8 @@ public class LongestMaximumContiguousSubArray {
             curr=Math.max(arr[i],curr+arr[i]);
             max=Math.max(max,curr);
         }
+
         System.out.print(max);
     }
 }
+
