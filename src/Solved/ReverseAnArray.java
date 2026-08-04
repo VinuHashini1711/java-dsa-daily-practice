@@ -13,6 +13,7 @@ public static void main(String[] args) {
         int temp=arr[i];
         arr[i]=arr[n-1-i];
         arr[n-1-i]=temp;
+
     }
     System.out.print(Arrays.toString(arr));
 //    System.out.print("[");
