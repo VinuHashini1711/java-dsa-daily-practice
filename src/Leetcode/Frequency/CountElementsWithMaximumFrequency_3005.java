@@ -11,6 +11,7 @@ public class CountElementsWithMaximumFrequency_3005 {
         for(int num : arr){
             freq[num]++;
         }
+
         for(int i=0;i<freq.length;i++){
             System.out.print(freq[i]+" ");
         }
