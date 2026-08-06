@@ -119,10 +119,11 @@ public class PatternSolving_KunalKushwaha {
     }
 }
 
+
 class Main{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        PatternSolving_KunalKushwaha.Pattern7(n);
+        PatternSolving_KunalKushwaha.Pattern6(n);
     }
 }
