@@ -126,4 +126,5 @@ class Main{
         int n=sc.nextInt();
         PatternSolving_KunalKushwaha.Pattern6(n);
     }
+
 }
