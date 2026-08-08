@@ -6,6 +6,8 @@ public class PatternSolving_KunalKushwaha {
         * * *
         * * * *
      */
+
+
     static void Pattern1(int n) {
         //print the no of lines (row)
         for (int row = 1; row <= n; row++) {
