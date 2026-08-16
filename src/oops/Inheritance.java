@@ -7,7 +7,7 @@ public class Inheritance {
         }
     }
 
-     static class Dog extends Animal {
+    public static final class Dog extends Animal {
         void bark() {
             System.out.println("Barking");
         }
