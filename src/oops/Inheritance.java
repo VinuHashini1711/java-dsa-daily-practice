@@ -1,7 +1,7 @@
 package oops;
 
 public class Inheritance {
-    class Animal {
+    static class Animal {
         void eat() {
             System.out.println("Eating");
         }
