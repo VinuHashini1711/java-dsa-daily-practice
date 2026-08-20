@@ -32,6 +32,7 @@ public class TopKFrequentElements {
         for(int i=0;i<k;i++){
             ans[i]=pq.poll();
         }
+
         System.out.println(Arrays.toString(ans));
     }
 }
