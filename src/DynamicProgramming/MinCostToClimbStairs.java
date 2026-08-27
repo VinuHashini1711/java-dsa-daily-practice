@@ -1,5 +1,4 @@
-package INFOSYS_PREP;
-import java.io.*;
+package DynamicProgramming;
 import java.util.*;
 public class MinCostToClimbStairs {
         public static int mincost(int n,int[] cost){
@@ -16,6 +15,7 @@ public class MinCostToClimbStairs {
             Scanner sc=new Scanner(System.in);
             int n=sc.nextInt();
             int arr[]=new int[n];
+
             for(int i=0;i<n;i++){
                 arr[i]=sc.nextInt();
             }

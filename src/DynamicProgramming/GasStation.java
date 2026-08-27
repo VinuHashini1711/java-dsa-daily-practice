@@ -1,6 +1,4 @@
-package INFOSYS_PREP;
-
-import java.util.*;
+package DynamicProgramming;
 
 public class GasStation {
 
