@@ -5,7 +5,6 @@ import java.util.*;
 public class JumpGameII {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter array size: ");
@@ -17,11 +16,8 @@ public class JumpGameII {
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
-
         Solution solution = new Solution();
-
         int result = solution.jump(nums);
-
         System.out.println("Minimum jumps = " + result);
 
         sc.close();
