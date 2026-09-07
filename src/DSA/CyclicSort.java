@@ -1,4 +1,4 @@
-package Solved;
+package DSA;
 import java.util.Arrays;
 public class CyclicSort {
         public static void main(String[] args) {

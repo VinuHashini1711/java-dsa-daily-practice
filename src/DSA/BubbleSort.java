@@ -1,4 +1,4 @@
-package Solved;
+package DSA;
 import java.util.*;
 class Main{
     public static void main(String[] args){

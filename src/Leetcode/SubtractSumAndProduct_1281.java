@@ -12,6 +12,7 @@ public class SubtractSumAndProduct_1281 {
             product = product * digit;
             n = n / 10;
         }
+
         int result = product - sum;
         System.out.println(result);
     }
