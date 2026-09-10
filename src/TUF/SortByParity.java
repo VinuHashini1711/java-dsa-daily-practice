@@ -11,7 +11,6 @@ public class SortByParity {
             else if (nums[right] % 2 != 0) {
                 right--;
             }
-
             else {
                 // left = odd, right = even
                 int temp = nums[left];
