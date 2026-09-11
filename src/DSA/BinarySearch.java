@@ -9,6 +9,7 @@ public class BinarySearch {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+
         int target=sc.nextInt();
 
         int l=0;
