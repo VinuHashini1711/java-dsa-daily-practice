@@ -33,9 +33,11 @@ public class BinarySearch {
                     r=mid-1;
                 }else{
                     l=mid+1;
+
                 }
             }
         }
         System.out.print(-1);
     }
 }
+
