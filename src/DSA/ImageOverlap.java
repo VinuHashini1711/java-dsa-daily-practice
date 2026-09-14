@@ -47,7 +47,6 @@ public class ImageOverlap {
                 {0, 1, 1},
                 {0, 0, 1}
         };
-
         System.out.println(largestOverlap(img1, img2));
     }
 }
