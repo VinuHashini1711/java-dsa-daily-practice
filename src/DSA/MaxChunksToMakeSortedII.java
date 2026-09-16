@@ -27,7 +27,6 @@ public class MaxChunksToMakeSortedII {
                     chunks++;
                 }
             }
-
             return chunks;
         }
 
