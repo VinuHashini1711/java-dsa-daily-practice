@@ -7,8 +7,10 @@ public class ImplementQueueUsingStacks {
         Stack<Integer> s1 = new Stack<>();
         Stack<Integer> s2 = new Stack<>();
 
+
         public MyQueue() {
         }
+
 
         public void push(int x) {
             s1.push(x);
