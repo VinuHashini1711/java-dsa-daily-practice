@@ -20,17 +20,13 @@ public class MaxChunksToMakeSortedII {
 
             // Find valid cut positions
             for (int i = 0; i < n - 1; i++) {
-
                 prefixMax = Math.max(prefixMax, arr[i]);
-
                 if (prefixMax <= suffixMin[i + 1]) {
                     chunks++;
                 }
             }
-
             return chunks;
         }
-
         public static void main(String[] args) {
 
             int[] arr = {2, 1, 3, 4, 4};
