@@ -38,7 +38,6 @@ public class RowWiseSum {
 
             System.out.println("Row " + (i + 1) + " Sum = " + sum);
         }
-
         sc.close();
     }
 }
