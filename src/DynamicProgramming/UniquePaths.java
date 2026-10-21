@@ -25,5 +25,3 @@ package DynamicProgramming;
             System.out.println(uniquePaths(3, 7)); // 28
         }
     }
-
-}
